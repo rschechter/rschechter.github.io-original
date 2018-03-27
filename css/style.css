@@ -1,0 +1,181 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'SF Pro Text';
+  font-size: 15px;
+  background-color: #E5E5E5;
+}
+
+h1{
+  font-size: 15px;
+}
+
+h2{
+  font-size: 15px;
+  font-weight: 570;
+  line-height: 22px;
+  padding-bottom: 3px;
+}
+
+h3{
+  font-size: 15px;
+  padding: 2px;
+  text-align: center;
+}
+
+h4{
+  font-size: 15px;
+  line-height: 22px;
+}
+
+h5{
+  font-size: 11px;
+  line-height: 12px;
+  font-style: italic;
+}
+
+h6{
+  font-size: 15px;
+}
+
+h7{
+  font-size: 18px;
+  font-weight: 550;
+}
+
+p{
+  font-size: 11px;
+  line-height: 17px;
+  font-style: italic;
+}
+
+.container{
+  background-color: #fff;
+  margin: 20px auto;
+  width: 375px;
+  height: 667px;
+  overflow: auto;
+}
+
+.status{
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.main{
+  vertical-align: middle;
+  padding-top: 5px;
+  text-align: center;
+  width: 85%;
+  display: inline-block;
+}
+
+.back-arrow{
+ vertical-align: middle;
+ display: inline-block;
+ padding-top: 10px;
+ margin-left: 7px;
+}
+
+.map{
+  padding-top: 10px;
+  max-width: 100%;
+}
+
+.banner{
+  height: 62px;
+  width: 100%;
+  background-color: #B2DFF2;
+  padding-top: 10px;
+}
+
+.bus{
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 13px;
+  padding-top: 5px;
+}
+
+.right-cell{
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.dest-frequency{
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 5px;
+  padding-top: 6px;
+  padding-bottom: 9px;
+}
+
+.east, .north, .south, .reroute, .oos{
+  padding-top: 10px;
+  padding-bottom: 6px;
+  width: 375px;
+}
+
+.title{
+  padding-left: 17px;
+}
+
+.title2{
+  padding-left: 17px;
+  padding-bottom: 4px;
+}
+
+.list {
+/*  height: 40px;*/
+  width: 375px;
+  padding-left: 17px;
+  vertical-align: middle;
+}
+
+.busnum{
+  display: inline-block;
+  vertical-align: middle;
+  border: 1.5px solid #000;
+  padding: 3px;
+  width: 37px;
+}
+
+.dest{
+  display: inline-block;
+  margin-left: 5px;
+  padding-top: 6px;
+  padding-bottom: 15px;
+}
+
+.frequency{
+  text-align: left;
+  font-style: italic;
+}
+
+.time{
+  display: inline-block;
+  color: #2DA7DB;
+  float: right;
+  padding-top: 11px;
+  padding-right: 17px;
+}
+
+.time2{
+  display: inline-block;
+  color: #2DA7DB;
+  float: right;
+  padding-top: 10px;
+  padding-right: 17px;
+}
+
+.line {
+  width: 343px;
+  padding-bottom: 10px;
+  margin-right: 17px;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: #828282;
+  float:right;
+}
